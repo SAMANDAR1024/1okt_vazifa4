@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="asosiy" >
+        <fieldset>
+            <legend style="background-color: blue; color: white;">Person Information</legend>
+            <label for="name">First name:</label> <br>
+            <input placeholder="First name" type="text" style="width: 100%;"> <br><br>
+            <label for="name">Last Name:</label> <br>
+            <input placeholder="Last name " type="text"style="width: 100%;"> <br><br>
+            <label for="email">Email:</label> <br>
+            <input placeholder="email" type="text"style="width: 100%;"> <br><br>
+            <label for="password">Password:</label> <br>
+            <input placeholder="Password" type="text"style="width: 100%;"> <br><br>
+    <span style="color: rgb(85, 85, 85);">Show</span>
+            <legend>Gender:</legend>
+                 <input type="radio" name="gender" value="male">
+                 <label for="male">Male</label>
+                 <input type="radio" name="gender"  value="female">
+                 <label for="female">Female</label>
+                 <input type="radio" name="gender"  value="topo">
+                 <label for="radio">Topo</label> <br>
+                 <span>Interest:</span> <br>
+                 
+                 
+                 <input type="checkbox" name="gender" value="male">
+                 <label for="male">Male</label>
+                 <input type="checkbox" name="gender"  value="female">
+                 <label for="female">Female</label>
+                 <input type="checkbox" name="gender"  value="topo">
+                 <label for="checkbox">Topo</label> <br>
+        </fieldset> <br>
+        <br>
+        <fieldset>
+            <legend style="background-color: blue; color: white;" >Prefences:</legend>
+          
+            <label for="Country">Country:</label> <br>
+            <input placeholder="Select country" list="countrys" name="Country" id="country" type="text" style="width: 100%;">
+            <datalist id="countrys">
+                 <option value="Edge"></option>
+                 <option value="Firefox"></option>
+                 <option value="Chrome"></option>
+                 <option value="opera"></option> <br>
+            </datalist> <br>
+            <br>
+            <label for="city">City:</label><br>
+            <input placeholder="city" type="text" > <br>
+            <br>
+             <span>Preffered Contact Data:</span> <br>
+               <input  type="date" style="width: 100%;">
+               <br>
+             <p>Additation Comments:</p>
+              <textarea style="width: 100%;" name="comment" id="comment" cols="100" rows="5" maxlength="50"></textarea>
+        </fieldset> <br>
+        <br>
+        <button  style=" background-color: blue; width: 90px; height: 30px; " >Submit</button>
+       <a href="./index.html"><button style=" background-color: rgb(255, 0, 0); width: 90px; height: 30px;" type="reset" >  Reset</button></a> 
+       </div>
+</body>
+</html>
